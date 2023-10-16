@@ -1,17 +1,7 @@
 import streamlit as st
-# import pymssql
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objs as go
-
-# Sample data
-# con = pymssql.connect(server='akhilracha-13', user='sa', password='admin', database='PythonExerciseDB')
-# cursor = con.cursor()
-
-# query = 'select * from [Python Exercise Data] '
-# cursor.execute(query)
-
-# data = cursor.fetchall()
 
 # Read data into a DataFrame
 df = pd.read_csv("Python Exercise Data.csv")
